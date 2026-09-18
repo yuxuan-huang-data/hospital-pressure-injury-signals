@@ -1,12 +1,12 @@
 cff-version: 1.2.0
-message: "If you use this analysis or its derived data, please cite it as below."
-title: "Hospital-Acquired Pressure Injury: What the Federal Data Shows"
+message: "If you use this work or its derived data, please cite it as below."
+title: "US Care Safety Signals"
 abstract: >-
-  Analysis of CMS-published pressure injury rates (PSI-03) across 3,056 US
-  acute care hospitals, combined with Hospital-Acquired Condition Reduction
-  Program penalty data for FY2026. Finds that 178 hospitals are rated worse
-  than the national pressure ulcer rate while only 49 are rated better, and
-  that 95 hospitals are both penalized under HACRP and rated worse on PSI-03.
+  Analyses of publicly available US federal data on patient and caregiver
+  safety in healthcare facilities. The first analysis covers CMS-published
+  hospital-acquired pressure injury rates (PSI-03) across 3,056 US acute
+  care hospitals, combined with Hospital-Acquired Condition Reduction
+  Program penalty data for FY2026.
 type: dataset
 authors:
   - given-names: Yuxuan
@@ -15,14 +15,15 @@ authors:
     city: New York
     country: US
 keywords:
-  - pressure injury
   - patient safety
+  - pressure injury
   - PSI-03
   - hospital-acquired conditions
+  - caregiver injury
   - CMS
   - Medicare
   - health services research
 license: CC-BY-4.0
-repository-code: "https://github.com/yuxuan-huang-data/hospital-pressure-injury-signals"
+repository-code: "https://github.com/yuxuan-huang-data/us-care-safety-signals"
 date-released: 2026-09-17
 version: "1.0.0"
