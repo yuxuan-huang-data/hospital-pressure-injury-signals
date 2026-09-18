@@ -56,6 +56,9 @@ rate."
 | Hospital-Acquired Condition Reduction Program | 3,055 | 2026-01-26 | data.cms.gov/provider-data |
 | Hospital General Information | 5,419 | 2026-07-22 | data.cms.gov/provider-data |
 
+The Complications file covers 4,790 hospitals. 3,056 of them have a published
+PSI-03 value; the remainder are suppressed for low case volume.
+
 Join key is CMS Certification Number (`Facility ID`, 6 digits).
 
 PSI-03 is defined by AHRQ as stage III/IV or unstageable pressure ulcers
@@ -68,7 +71,7 @@ severe burns, and exfoliative skin disorders are excluded.
 ## Reproducing
 
     pip install duckdb pandas requests
-    jupyter notebook notebooks/psi-analysis.ipynb
+    jupyter notebook psi-analysis.ipynb
 
 The notebook resolves current download URLs from the CMS DCAT catalog at
 `data.cms.gov/provider-data/data.json`. CMS rotates file URLs monthly; the
